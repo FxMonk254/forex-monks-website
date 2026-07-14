@@ -1,0 +1,328 @@
+/* ===========================
+   FOREX MONKS COMPANY
+   Privacy Policy Website
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#05070A;
+    color:#FFFFFF;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    line-height:1.8;
+
+}
+
+.container{
+
+    width:90%;
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+header{
+
+    background:#0B0E13;
+
+    border-bottom:1px solid #1F2937;
+
+    padding:70px 20px;
+
+    text-align:center;
+
+}
+
+header h1{
+
+    color:#F5C542;
+
+    font-size:52px;
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    color:#CBD5E1;
+
+    font-size:22px;
+
+}
+
+.intro{
+
+    margin-top:60px;
+
+    background:#141821;
+
+    border:1px solid #1F2937;
+
+    border-radius:18px;
+
+    padding:40px;
+
+}
+
+.intro h2{
+
+    color:#F5C542;
+
+    margin-bottom:20px;
+
+    font-size:32px;
+
+}
+
+.intro p{
+
+    color:#CBD5E1;
+
+    margin-bottom:18px;
+
+    font-size:17px;
+
+}
+
+#policy{
+
+    margin-top:40px;
+
+}
+
+.policy-card{
+
+    background:#141821;
+
+    border:1px solid #1F2937;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    margin-bottom:25px;
+
+}
+
+.policy-card h3{
+
+    color:#F5C542;
+
+    margin-bottom:15px;
+
+}
+
+.policy-card p{
+
+    color:#CBD5E1;
+
+}
+
+footer{
+
+    margin-top:80px;
+
+    border-top:1px solid #1F2937;
+
+    text-align:center;
+
+    padding:35px;
+
+    color:#94A3B8;
+
+}
+/* ==========================
+        NAVIGATION
+========================== */
+
+nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:80px;
+
+    flex-wrap:wrap;
+
+}
+
+.logo{
+
+    color:#F5C542;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+    font-size:17px;
+
+}
+
+nav a:hover{
+
+    color:#F5C542;
+
+}
+
+/* ==========================
+          HERO
+========================== */
+
+.hero{
+
+    text-align:center;
+
+}
+
+.button{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    padding:15px 35px;
+
+    background:#F5C542;
+
+    color:black;
+
+    font-weight:bold;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.button:hover{
+
+    transform:translateY(-2px);
+
+    background:#FFD75C;
+
+}
+
+/* ==========================
+       RESPONSIVE
+========================== */
+
+@media(max-width:800px){
+
+nav{
+
+flex-direction:column;
+
+gap:25px;
+
+}
+
+nav ul{
+
+flex-direction:column;
+
+align-items:center;
+
+gap:15px;
+
+}
+
+header h1{
+
+font-size:36px;
+
+}
+
+.subtitle{
+
+font-size:18px;
+
+}
+
+}
+.footer-links{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+margin:25px 0;
+
+flex-wrap:wrap;
+
+}
+
+.footer-links a{
+
+color:#CBD5E1;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+color:#F5C542;
+
+}
+
+footer h3{
+
+color:#F5C542;
+
+margin-bottom:15px;
+
+}
+
+footer p{
+
+color:#CBD5E1;
+
+}
+
+.copyright{
+
+margin-top:25px;
+
+color:#94A3B8;
+
+font-size:14px;
+
+}
