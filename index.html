@@ -93,7 +93,24 @@
 
     </div>
   </header>
+<!-- LIVE MARKET TICKER -->
 
+<section
+  class="market-ticker"
+  aria-label="Live market prices"
+>
+  <script
+    type="module"
+    src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"
+  ></script>
+
+  <tv-ticker-tape
+    symbols="FX:EURUSD,FX:GBPUSD,FX:USDCAD,FX:USDJPY,FX:AUDUSD,FX:NZDUSD,FX:USDCHF,OANDA:XAUUSD,BITSTAMP:BTCUSD"
+    theme="dark"
+    transparent
+    hover-chart
+  ></tv-ticker-tape>
+</section>
 
   <main>
 

@@ -1077,3 +1077,12 @@ body > header:not(.site-header) h1 {
     }
 
 }
+/* LIVE MARKET TICKER */
+
+.market-ticker {
+  width: 100%;
+  min-height: 48px;
+  background: #0b0e13;
+  border-bottom: 1px solid #1f2937;
+  overflow: hidden;
+}
